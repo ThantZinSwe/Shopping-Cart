@@ -1,0 +1,24 @@
+user
+name    role    email   password    image
+
+category
+slug    name
+
+product
+category_id     slug    name    image   publish_status  description   qty     price     discount_price   view_count
+
+product_cart
+user_id     product_id  qty
+
+product_order
+user_id     product_id  qty     status    phone**  address
+
+product_save
+user_id     product_id
+
+product_like
+user_id     product_id
+
+
+
+***** phone to change string type****
